@@ -130,6 +130,23 @@
       "tags": [
         "coding"
       ]
+    },
+    {
+      "name": "agent-blender-wrapper",
+      "description": "Pairs the external BlenderMCP server with a skill so Claude can drive Blender - inspecting scenes, creating and modifying objects, applying materials, and sourcing assets - through structured MCP operations instead of blind Python scripting.",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-blender-wrapper",
+        "ref": "agent-blender-wrapper--v0.0.3"
+      },
+      "category": "skill",
+      "version": "0.0.3",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-blender-wrapper/agent-blender-wrapper--v0.0.3/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-blender-wrapper/agent-blender-wrapper--v0.0.3/description.md",
+      "tags": [
+        "3d",
+        "creative"
+      ]
     }
   ]
 }
