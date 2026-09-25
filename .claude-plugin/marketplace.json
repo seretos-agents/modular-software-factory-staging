@@ -62,6 +62,19 @@
         "organisation",
         "ticket"
       ]
+    },
+    {
+      "name": "agent-ticket-orchestrator",
+      "description": "Board-driven ecosystem orchestrator: bundles and clarifies Backlog tickets into released work packages (gatekeeper), then runs every Todo package unattended through agent-autonomous-developer to a merged, CI-green PR, moving board columns as the only status signal (run).",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-ticket-orchestrator",
+        "ref": "agent-ticket-orchestrator--v0.3.2"
+      },
+      "category": "skill",
+      "version": "0.3.2",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-ticket-orchestrator/agent-ticket-orchestrator--v0.3.2/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-ticket-orchestrator/agent-ticket-orchestrator--v0.3.2/description.md"
     }
   ]
 }
