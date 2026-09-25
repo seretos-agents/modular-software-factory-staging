@@ -1,0 +1,7 @@
+{
+  "name": "modular-software-factory-staging",
+  "interface": {
+    "displayName": "Modular Software Factory (Staging)"
+  },
+  "plugins": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "modular-software-factory-staging",
+  "owner": {
+    "name": "Arne von Appen"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": []
+}

@@ -1,0 +1,49 @@
+name: update-registry
+
+# Staging marketplace: a registered plugin is committed straight to main --
+# no PR, no review gate. The curated marketplace (modular-software-factory)
+# runs the same repository_dispatch -> shared action wiring with mode: pr
+# instead -- see that repo's own update-registry.yml.
+#
+# The actual upsert / commit logic is NOT implemented here: it lives once,
+# shared by both marketplaces, in modular-software-factory-dev's
+# .github/actions/update-registry (referenced below by owner/repo/path@ref).
+on:
+  repository_dispatch:
+    types: [plugin-release]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # token override: git push needs to authenticate as ECOSYSTEM_TOKEN,
+      # not the default per-repo GITHUB_TOKEN -- checkout is what wires the
+      # git credential helper, so the token has to be set here, not just
+      # passed as gh_token below (that only covers `gh` CLI calls, never
+      # plain `git push`).
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ECOSYSTEM_TOKEN }}
+
+      - name: Update marketplace registries directly on main
+        uses: seretos-agents/modular-software-factory-dev/.github/actions/update-registry@main
+        with:
+          name:             ${{ github.event.client_payload.name }}
+          version:          ${{ github.event.client_payload.version }}
+          repo:             ${{ github.event.client_payload.repo }}
+          ref:              ${{ github.event.client_payload.ref }}
+          category:         ${{ github.event.client_payload.category }}
+          description:      ${{ github.event.client_payload.description }}
+          icon:             ${{ github.event.client_payload.icon }}
+          description_url:  ${{ github.event.client_payload.description_url }}
+          # tags is a structured value (array) -- MUST be wrapped in
+          # toJSON(): injecting a raw sequence into a scalar `with:` value
+          # fails the workflow at template-compile time ("A sequence was not
+          # expected"), before any step runs. changelog is dropped entirely
+          # in mode: direct (no PR body to render it into), so it isn't
+          # forwarded here.
+          tags:             ${{ toJSON(github.event.client_payload.tags) }}
+          mode: direct
+          gh_token: ${{ secrets.ECOSYSTEM_TOKEN }}
