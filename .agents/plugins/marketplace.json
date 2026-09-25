@@ -55,6 +55,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "agent-autonomous-prompt-engineer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seretos-agents/agent-autonomous-prompt-engineer.git",
+        "ref": "agent-autonomous-prompt-engineer--v0.0.3"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
