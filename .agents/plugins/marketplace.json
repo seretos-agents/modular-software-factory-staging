@@ -133,6 +133,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "agent-meshy-wrapper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seretos-agents/agent-meshy-wrapper.git",
+        "ref": "agent-meshy-wrapper--v0.0.2"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
