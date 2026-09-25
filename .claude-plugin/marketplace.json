@@ -177,6 +177,17 @@
       },
       "category": "skill",
       "version": "0.0.2"
+    },
+    {
+      "name": "agent-vdesktop",
+      "description": "Microsoft Virtual Desktop management for Claude Code (native Windows + WSL). Create/delete/switch desktops, apply layouts (presets and custom percent splits, multi-monitor), launch Chrome/Terminal/VSCode into layout slots, pin apps across desktops.",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-vdesktop",
+        "ref": "agent-vdesktop--v0.1.3"
+      },
+      "category": "mcp",
+      "version": "0.1.3"
     }
   ]
 }
