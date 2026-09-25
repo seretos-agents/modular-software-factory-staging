@@ -81,6 +81,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "agent-unity-wrapper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seretos-agents/agent-unity-wrapper.git",
+        "ref": "agent-unity-wrapper--v0.2.4"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
