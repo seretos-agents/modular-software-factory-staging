@@ -104,7 +104,7 @@
     },
     {
       "name": "agent-unity-wrapper",
-      "description": "test manual dispatch diagnostic",
+      "description": "Pairs the external Unity MCP server with a skill so Claude can drive the Unity editor - inspecting scenes, GameObjects, and assets - through structured MCP operations instead of guessing project state.",
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-unity-wrapper",
@@ -199,17 +199,6 @@
       },
       "category": "mcp",
       "version": "0.0.7"
-    },
-    {
-      "name": "zz-diagnostic-test",
-      "description": "diagnostic",
-      "source": {
-        "source": "github",
-        "repo": "seretos-agents/agent-chrome-wrapper",
-        "ref": "zz-test"
-      },
-      "category": "mcp",
-      "version": "0.0.0"
     }
   ]
 }
