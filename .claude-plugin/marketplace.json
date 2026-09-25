@@ -6,5 +6,25 @@
   "metadata": {
     "version": "1.0.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "agent-autonomous-developer",
+      "description": "Takes one work package (a ticket or an epic with all its children) from a prepared worktree to a pull request with a GREEN CI pipeline, for projects in any language (stack auto-detected). One headless skill \u2014 process-developer \u2014 backed by six subagents (context-extractor, planner, plan-critic, developer, test-critic, reviewer) with isolated critics, three-round caps and machine-readable progress events on the ticket. Never asks a human. Drives the agent-project-issues MCP.",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-autonomous-developer",
+        "ref": "agent-autonomous-developer--v0.5.1"
+      },
+      "category": "skill",
+      "version": "0.5.1",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-autonomous-developer/agent-autonomous-developer--v0.5.1/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-autonomous-developer/agent-autonomous-developer--v0.5.1/description.md",
+      "tags": [
+        "git",
+        "organisation",
+        "ticket",
+        "automation"
+      ]
+    }
+  ]
 }

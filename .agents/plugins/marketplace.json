@@ -3,5 +3,19 @@
   "interface": {
     "displayName": "Modular Software Factory (Staging)"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "agent-autonomous-developer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seretos-agents/agent-autonomous-developer.git",
+        "ref": "agent-autonomous-developer--v0.5.1"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }
