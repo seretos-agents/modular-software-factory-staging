@@ -29,6 +29,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "agent-project-issues",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seretos-agents/agent-project-issues.git",
+        "ref": "agent-project-issues--v0.3.11"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
