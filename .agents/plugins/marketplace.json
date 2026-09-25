@@ -94,6 +94,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "agent-serena-wrapper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seretos-agents/agent-serena-wrapper.git",
+        "ref": "agent-serena-wrapper--v0.1.6"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
