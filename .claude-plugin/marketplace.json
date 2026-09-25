@@ -147,6 +147,25 @@
         "3d",
         "creative"
       ]
+    },
+    {
+      "name": "agent-line-feed-guard",
+      "description": "Repairs CRLF line endings in the files Claude Code parses, so a subagent, skill, or command never silently fails to load.",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-line-feed-guard",
+        "ref": "agent-line-feed-guard--v0.0.2"
+      },
+      "category": "hook",
+      "version": "0.0.2",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-line-feed-guard/agent-line-feed-guard--v0.0.2/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-line-feed-guard/agent-line-feed-guard--v0.0.2/description.md",
+      "tags": [
+        "claude",
+        "hooks",
+        "windows",
+        "line-endings"
+      ]
     }
   ]
 }
