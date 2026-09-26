@@ -126,7 +126,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-line-feed-guard.git",
-        "ref": "agent-line-feed-guard--v0.0.2"
+        "ref": "agent-line-feed-guard--v0.0.3"
       },
       "policy": {
         "installation": "AVAILABLE",

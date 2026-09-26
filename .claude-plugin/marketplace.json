@@ -154,12 +154,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-line-feed-guard",
-        "ref": "agent-line-feed-guard--v0.0.2"
+        "ref": "agent-line-feed-guard--v0.0.3"
       },
       "category": "hook",
-      "version": "0.0.2",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-line-feed-guard/agent-line-feed-guard--v0.0.2/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-line-feed-guard/agent-line-feed-guard--v0.0.2/description.md",
+      "version": "0.0.3",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-line-feed-guard/agent-line-feed-guard--v0.0.3/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-line-feed-guard/agent-line-feed-guard--v0.0.3/description.md",
       "tags": [
         "claude",
         "hooks",
