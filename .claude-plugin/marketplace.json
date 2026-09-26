@@ -82,12 +82,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-autonomous-prompt-engineer",
-        "ref": "agent-autonomous-prompt-engineer--v0.0.3"
+        "ref": "agent-autonomous-prompt-engineer--v0.0.4"
       },
       "category": "skill",
-      "version": "0.0.3",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-autonomous-prompt-engineer/agent-autonomous-prompt-engineer--v0.0.3/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-autonomous-prompt-engineer/agent-autonomous-prompt-engineer--v0.0.3/description.md"
+      "version": "0.0.4",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-autonomous-prompt-engineer/agent-autonomous-prompt-engineer--v0.0.4/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-autonomous-prompt-engineer/agent-autonomous-prompt-engineer--v0.0.4/description.md"
     },
     {
       "name": "agent-comfy",

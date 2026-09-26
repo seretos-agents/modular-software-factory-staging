@@ -61,7 +61,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-autonomous-prompt-engineer.git",
-        "ref": "agent-autonomous-prompt-engineer--v0.0.3"
+        "ref": "agent-autonomous-prompt-engineer--v0.0.4"
       },
       "policy": {
         "installation": "AVAILABLE",
