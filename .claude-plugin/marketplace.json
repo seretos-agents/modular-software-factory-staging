@@ -173,10 +173,17 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-meshy-wrapper",
-        "ref": "agent-meshy-wrapper--v0.0.2"
+        "ref": "agent-meshy-wrapper--v0.0.3"
       },
       "category": "skill",
-      "version": "0.0.2"
+      "version": "0.0.3",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-meshy-wrapper/agent-meshy-wrapper--v0.0.3/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-meshy-wrapper/agent-meshy-wrapper--v0.0.3/description.md",
+      "tags": [
+        "3d",
+        "creative",
+        "ai"
+      ]
     },
     {
       "name": "agent-vdesktop",

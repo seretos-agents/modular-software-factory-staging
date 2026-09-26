@@ -139,7 +139,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-meshy-wrapper.git",
-        "ref": "agent-meshy-wrapper--v0.0.2"
+        "ref": "agent-meshy-wrapper--v0.0.3"
       },
       "policy": {
         "installation": "AVAILABLE",
