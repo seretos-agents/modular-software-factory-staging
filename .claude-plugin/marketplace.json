@@ -69,12 +69,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-ticket-orchestrator",
-        "ref": "agent-ticket-orchestrator--v0.3.2"
+        "ref": "agent-ticket-orchestrator--v0.3.3"
       },
       "category": "skill",
-      "version": "0.3.2",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-ticket-orchestrator/agent-ticket-orchestrator--v0.3.2/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-ticket-orchestrator/agent-ticket-orchestrator--v0.3.2/description.md"
+      "version": "0.3.3",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-ticket-orchestrator/agent-ticket-orchestrator--v0.3.3/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-ticket-orchestrator/agent-ticket-orchestrator--v0.3.3/description.md"
     },
     {
       "name": "agent-autonomous-prompt-engineer",

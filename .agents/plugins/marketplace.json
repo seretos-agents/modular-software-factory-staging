@@ -48,7 +48,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-ticket-orchestrator.git",
-        "ref": "agent-ticket-orchestrator--v0.3.2"
+        "ref": "agent-ticket-orchestrator--v0.3.3"
       },
       "policy": {
         "installation": "AVAILABLE",
