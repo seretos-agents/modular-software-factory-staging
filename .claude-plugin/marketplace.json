@@ -95,12 +95,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-comfy",
-        "ref": "agent-comfy--v0.0.11"
+        "ref": "agent-comfy--v0.1.0"
       },
       "category": "mcp",
-      "version": "0.0.11",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-comfy/agent-comfy--v0.0.11/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-comfy/agent-comfy--v0.0.11/description.md"
+      "version": "0.1.0",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-comfy/agent-comfy--v0.1.0/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-comfy/agent-comfy--v0.1.0/description.md"
     },
     {
       "name": "agent-unity-wrapper",

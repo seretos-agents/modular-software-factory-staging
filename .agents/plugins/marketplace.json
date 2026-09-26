@@ -74,7 +74,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-comfy.git",
-        "ref": "agent-comfy--v0.0.11"
+        "ref": "agent-comfy--v0.1.0"
       },
       "policy": {
         "installation": "AVAILABLE",
