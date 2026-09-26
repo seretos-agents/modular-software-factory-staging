@@ -22,7 +22,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-worktree.git",
-        "ref": "agent-worktree--v0.3.3"
+        "ref": "agent-worktree--v0.3.4"
       },
       "policy": {
         "installation": "AVAILABLE",
