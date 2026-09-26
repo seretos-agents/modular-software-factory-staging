@@ -9,7 +9,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-autonomous-developer.git",
-        "ref": "agent-autonomous-developer--v0.5.1"
+        "ref": "agent-autonomous-developer--v0.5.2"
       },
       "policy": {
         "installation": "AVAILABLE",
