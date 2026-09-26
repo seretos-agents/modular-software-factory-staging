@@ -113,7 +113,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-blender-wrapper.git",
-        "ref": "agent-blender-wrapper--v0.0.3"
+        "ref": "agent-blender-wrapper--v0.0.4"
       },
       "policy": {
         "installation": "AVAILABLE",
