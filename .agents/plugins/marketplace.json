@@ -35,7 +35,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-project-issues.git",
-        "ref": "agent-project-issues--v0.3.11"
+        "ref": "agent-project-issues--v0.4.0"
       },
       "policy": {
         "installation": "AVAILABLE",
