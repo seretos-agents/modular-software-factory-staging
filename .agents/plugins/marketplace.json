@@ -165,7 +165,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-chrome-wrapper.git",
-        "ref": "agent-chrome-wrapper--v0.0.7"
+        "ref": "agent-chrome-wrapper--v0.0.8"
       },
       "policy": {
         "installation": "AVAILABLE",
