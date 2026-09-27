@@ -208,6 +208,19 @@
       "version": "0.0.8",
       "icon": "https://raw.githubusercontent.com/seretos-agents/agent-chrome-wrapper/agent-chrome-wrapper--v0.0.8/assets/icon.png",
       "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-chrome-wrapper/agent-chrome-wrapper--v0.0.8/description.md"
+    },
+    {
+      "name": "agent-harness",
+      "description": "Provider-independent subagent system for coding agents - replaces the host's built-in subagent tool calls.",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-harness",
+        "ref": "agent-harness--v0.0.2"
+      },
+      "category": "mcp",
+      "version": "0.0.2",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-harness/agent-harness--v0.0.2/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-harness/agent-harness--v0.0.2/description.md"
     }
   ]
 }
