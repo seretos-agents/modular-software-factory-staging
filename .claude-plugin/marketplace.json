@@ -202,12 +202,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-chrome-wrapper",
-        "ref": "agent-chrome-wrapper--v0.0.8"
+        "ref": "agent-chrome-wrapper--v0.0.9"
       },
       "category": "mcp",
-      "version": "0.0.8",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-chrome-wrapper/agent-chrome-wrapper--v0.0.8/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-chrome-wrapper/agent-chrome-wrapper--v0.0.8/description.md"
+      "version": "0.0.9",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-chrome-wrapper/agent-chrome-wrapper--v0.0.9/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-chrome-wrapper/agent-chrome-wrapper--v0.0.9/description.md"
     },
     {
       "name": "agent-harness",
