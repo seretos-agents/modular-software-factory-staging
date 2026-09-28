@@ -121,12 +121,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-serena-wrapper",
-        "ref": "agent-serena-wrapper--v0.1.7"
+        "ref": "agent-serena-wrapper--v0.1.8"
       },
       "category": "skill",
-      "version": "0.1.7",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-serena-wrapper/agent-serena-wrapper--v0.1.7/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-serena-wrapper/agent-serena-wrapper--v0.1.7/description.md",
+      "version": "0.1.8",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-serena-wrapper/agent-serena-wrapper--v0.1.8/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-serena-wrapper/agent-serena-wrapper--v0.1.8/description.md",
       "tags": [
         "coding"
       ]

@@ -100,7 +100,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/seretos-agents/agent-serena-wrapper.git",
-        "ref": "agent-serena-wrapper--v0.1.7"
+        "ref": "agent-serena-wrapper--v0.1.8"
       },
       "policy": {
         "installation": "AVAILABLE",
