@@ -108,12 +108,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-unity-wrapper",
-        "ref": "agent-unity-wrapper--v0.2.5"
+        "ref": "agent-unity-wrapper--v0.2.6"
       },
       "category": "skill",
-      "version": "0.2.5",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-unity-wrapper/agent-unity-wrapper--v0.2.5/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-unity-wrapper/agent-unity-wrapper--v0.2.5/description.md"
+      "version": "0.2.6",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-unity-wrapper/agent-unity-wrapper--v0.2.6/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-unity-wrapper/agent-unity-wrapper--v0.2.6/description.md"
     },
     {
       "name": "agent-serena-wrapper",
