@@ -221,6 +221,24 @@
       "version": "0.0.10",
       "icon": "https://raw.githubusercontent.com/seretos-agents/agent-harness/agent-harness--v0.0.10/assets/icon.png",
       "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-harness/agent-harness--v0.0.10/description.md"
+    },
+    {
+      "name": "agent-godot-wrapper",
+      "description": "Pairs the external Godot MCP Toolkit bridge with a skill so Claude can drive the Godot 4 editor - inspecting scenes, nodes, scripts and resources, running playtests - through structured MCP operations instead of guessing project state.",
+      "source": {
+        "source": "github",
+        "repo": "seretos-agents/agent-godot-wrapper",
+        "ref": "agent-godot-wrapper--v0.0.2"
+      },
+      "category": "skill",
+      "version": "0.0.2",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-godot-wrapper/agent-godot-wrapper--v0.0.2/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-godot-wrapper/agent-godot-wrapper--v0.0.2/description.md",
+      "tags": [
+        "godot",
+        "game-engine",
+        "3d"
+      ]
     }
   ]
 }
