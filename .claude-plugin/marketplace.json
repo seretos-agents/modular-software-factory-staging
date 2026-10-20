@@ -228,12 +228,12 @@
       "source": {
         "source": "github",
         "repo": "seretos-agents/agent-godot-wrapper",
-        "ref": "agent-godot-wrapper--v0.0.2"
+        "ref": "agent-godot-wrapper--v0.0.3"
       },
       "category": "skill",
-      "version": "0.0.2",
-      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-godot-wrapper/agent-godot-wrapper--v0.0.2/assets/icon.png",
-      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-godot-wrapper/agent-godot-wrapper--v0.0.2/description.md",
+      "version": "0.0.3",
+      "icon": "https://raw.githubusercontent.com/seretos-agents/agent-godot-wrapper/agent-godot-wrapper--v0.0.3/assets/icon.png",
+      "description_url": "https://raw.githubusercontent.com/seretos-agents/agent-godot-wrapper/agent-godot-wrapper--v0.0.3/description.md",
       "tags": [
         "godot",
         "game-engine",
